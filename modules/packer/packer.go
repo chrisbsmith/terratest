@@ -8,12 +8,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/gruntwork-io/terratest/modules/retry"
+	"github.com/chrisbsmith/terratest/modules/retry"
 
-	"github.com/gruntwork-io/terratest/modules/customerrors"
-	"github.com/gruntwork-io/terratest/modules/logger"
-	"github.com/gruntwork-io/terratest/modules/shell"
-	"github.com/gruntwork-io/terratest/modules/testing"
+	"github.com/chrisbsmith/terratest/modules/customerrors"
+	"github.com/chrisbsmith/terratest/modules/logger"
+	"github.com/chrisbsmith/terratest/modules/shell"
+	"github.com/chrisbsmith/terratest/modules/testing"
 )
 
 // Options are the options for Packer.

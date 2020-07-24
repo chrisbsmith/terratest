@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	http_helper "github.com/gruntwork-io/terratest/modules/http-helper"
-	"github.com/gruntwork-io/terratest/modules/k8s"
+	http_helper "github.com/chrisbsmith/terratest/modules/http-helper"
+	"github.com/chrisbsmith/terratest/modules/k8s"
 )
 
 func TestKubernetesHelloWorldExample(t *testing.T) {

@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gruntwork-io/terratest/modules/files"
+	"github.com/chrisbsmith/terratest/modules/files"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

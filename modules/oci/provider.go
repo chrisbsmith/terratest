@@ -3,7 +3,7 @@ package oci
 import (
 	"os"
 
-	"github.com/gruntwork-io/terratest/modules/testing"
+	"github.com/chrisbsmith/terratest/modules/testing"
 	"github.com/oracle/oci-go-sdk/common"
 )
 

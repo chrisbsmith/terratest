@@ -5,7 +5,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/gruntwork-io/terratest/modules/testing"
+	"github.com/chrisbsmith/terratest/modules/testing"
 )
 
 // WorkspaceSelectOrNew runs terraform workspace with the given options and the workspace name

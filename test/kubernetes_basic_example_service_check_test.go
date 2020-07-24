@@ -18,9 +18,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	http_helper "github.com/gruntwork-io/terratest/modules/http-helper"
-	"github.com/gruntwork-io/terratest/modules/k8s"
-	"github.com/gruntwork-io/terratest/modules/random"
+	http_helper "github.com/chrisbsmith/terratest/modules/http-helper"
+	"github.com/chrisbsmith/terratest/modules/k8s"
+	"github.com/chrisbsmith/terratest/modules/random"
 )
 
 // An example of how to do more expanded verification of the Kubernetes resource config in examples/kubernetes-basic-example using Terratest.

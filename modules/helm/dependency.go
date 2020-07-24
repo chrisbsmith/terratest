@@ -6,8 +6,8 @@ import (
 	"github.com/gruntwork-io/gruntwork-cli/errors"
 	"github.com/stretchr/testify/require"
 
-	"github.com/gruntwork-io/terratest/modules/files"
-	"github.com/gruntwork-io/terratest/modules/testing"
+	"github.com/chrisbsmith/terratest/modules/files"
+	"github.com/chrisbsmith/terratest/modules/testing"
 )
 
 // Dependency will manage the dependencies of a parent chart. The test will fail if there is an error

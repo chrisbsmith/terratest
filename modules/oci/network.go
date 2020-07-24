@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/gruntwork-io/terratest/modules/logger"
-	"github.com/gruntwork-io/terratest/modules/random"
-	"github.com/gruntwork-io/terratest/modules/testing"
+	"github.com/chrisbsmith/terratest/modules/logger"
+	"github.com/chrisbsmith/terratest/modules/random"
+	"github.com/chrisbsmith/terratest/modules/testing"
 	"github.com/oracle/oci-go-sdk/common"
 	"github.com/oracle/oci-go-sdk/core"
 )

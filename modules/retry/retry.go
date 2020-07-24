@@ -8,8 +8,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/gruntwork-io/terratest/modules/logger"
-	"github.com/gruntwork-io/terratest/modules/testing"
+	"github.com/chrisbsmith/terratest/modules/logger"
+	"github.com/chrisbsmith/terratest/modules/testing"
 	"golang.org/x/net/context"
 )
 

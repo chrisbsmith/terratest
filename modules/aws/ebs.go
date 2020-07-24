@@ -3,8 +3,8 @@ package aws
 import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/ec2"
-	"github.com/gruntwork-io/terratest/modules/logger"
-	"github.com/gruntwork-io/terratest/modules/testing"
+	"github.com/chrisbsmith/terratest/modules/logger"
+	"github.com/chrisbsmith/terratest/modules/testing"
 )
 
 // DeleteEbsSnapshot deletes the given EBS snapshot

@@ -11,9 +11,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gruntwork-io/terratest/modules/logger"
-	"github.com/gruntwork-io/terratest/modules/retry"
-	"github.com/gruntwork-io/terratest/modules/testing"
+	"github.com/chrisbsmith/terratest/modules/logger"
+	"github.com/chrisbsmith/terratest/modules/retry"
+	"github.com/chrisbsmith/terratest/modules/testing"
 )
 
 // HttpGet performs an HTTP GET, with an optional pointer to a custom TLS configuration, on the given URL and

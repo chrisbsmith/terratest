@@ -6,9 +6,9 @@ import (
 	"net"
 	"reflect"
 
-	"github.com/gruntwork-io/terratest/modules/collections"
-	"github.com/gruntwork-io/terratest/modules/logger"
-	"github.com/gruntwork-io/terratest/modules/testing"
+	"github.com/chrisbsmith/terratest/modules/collections"
+	"github.com/chrisbsmith/terratest/modules/logger"
+	"github.com/chrisbsmith/terratest/modules/testing"
 	"golang.org/x/crypto/ssh"
 )
 

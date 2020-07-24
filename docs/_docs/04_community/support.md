@@ -16,7 +16,7 @@ Many developers use Stack Overflow to find help. Use the `terratest` tag to find
 
 ## Github Issues
 
-Read through [existing issues](https://github.com/gruntwork-io/terratest/issues) or post a new one. Github issues is a good place to:
+Read through [existing issues](https://github.com/chrisbsmith/terratest/issues) or post a new one. Github issues is a good place to:
 
   - report a bug,
 

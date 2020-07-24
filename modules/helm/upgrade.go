@@ -3,9 +3,9 @@ package helm
 import (
 	"path/filepath"
 
+	"github.com/chrisbsmith/terratest/modules/files"
+	"github.com/chrisbsmith/terratest/modules/testing"
 	"github.com/gruntwork-io/gruntwork-cli/errors"
-	"github.com/gruntwork-io/terratest/modules/files"
-	"github.com/gruntwork-io/terratest/modules/testing"
 	"github.com/stretchr/testify/require"
 )
 

@@ -7,8 +7,8 @@ import (
 	"strconv"
 	"sync/atomic"
 
-	"github.com/gruntwork-io/terratest/modules/logger"
-	"github.com/gruntwork-io/terratest/modules/testing"
+	"github.com/chrisbsmith/terratest/modules/logger"
+	"github.com/chrisbsmith/terratest/modules/testing"
 )
 
 // RunDummyServer runs a dummy HTTP server on a unique port that will return the given text. Returns the Listener for the server, the

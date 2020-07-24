@@ -1,9 +1,9 @@
 package helm
 
 import (
+	"github.com/chrisbsmith/terratest/modules/shell"
+	"github.com/chrisbsmith/terratest/modules/testing"
 	"github.com/gruntwork-io/gruntwork-cli/errors"
-	"github.com/gruntwork-io/terratest/modules/shell"
-	"github.com/gruntwork-io/terratest/modules/testing"
 )
 
 // getCommonArgs extracts common helm options. In this case, these are:
