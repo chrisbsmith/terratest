@@ -3,10 +3,10 @@ package azure
 import (
 	"context"
 
-	"github.com/gruntwork-io/terratest/modules/collections"
-	"github.com/gruntwork-io/terratest/modules/logger"
-	"github.com/gruntwork-io/terratest/modules/random"
-	"github.com/gruntwork-io/terratest/modules/testing"
+	"github.com/chrisbsmith/terratest/modules/collections"
+	"github.com/chrisbsmith/terratest/modules/logger"
+	"github.com/chrisbsmith/terratest/modules/random"
+	"github.com/chrisbsmith/terratest/modules/testing"
 )
 
 // Reference for region list: https://azure.microsoft.com/en-us/global-infrastructure/locations/

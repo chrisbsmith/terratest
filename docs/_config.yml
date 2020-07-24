@@ -19,19 +19,19 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Terratest
-url: "https://terratest.gruntwork.io"
+url: 'https://terratest.gruntwork.io'
 email: info@gruntwork.io
-name: "Terratest | Automated tests for your infrastructure code."
+name: 'Terratest | Automated tests for your infrastructure code.'
 description: >- # this means to ignore newlines until "baseurl:"
   Terratest is a Go library that provides patterns and helper functions for
   testing infrastructure, with 1st-class support for Terraform, Packer, Docker,
   Kubernetes, AWS, GCP, and more.
-baseurl: "" # the subpath of your site, e.g. /blog
-full_company_name: "Gruntwork, Inc"
-thumbnail_path: "/assets/img/terratest-thumbnail.png"
-repository: "github.com/gruntwork-io/terratest"
+baseurl: '' # the subpath of your site, e.g. /blog
+full_company_name: 'Gruntwork, Inc'
+thumbnail_path: '/assets/img/terratest-thumbnail.png'
+repository: 'github.com/chrisbsmith/terratest'
 twitter_username: https://twitter.com/gruntwork_io
-github_username:  https://github.com/gruntwork-io
+github_username: https://github.com/gruntwork-io
 
 github_api_url: https://raw.githubusercontent.com/gruntwork-io/terratest/master
 

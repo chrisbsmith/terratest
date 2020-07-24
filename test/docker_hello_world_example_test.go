@@ -3,7 +3,7 @@ package test
 import (
 	"testing"
 
-	"github.com/gruntwork-io/terratest/modules/docker"
+	"github.com/chrisbsmith/terratest/modules/docker"
 	"github.com/stretchr/testify/assert"
 )
 

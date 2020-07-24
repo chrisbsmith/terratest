@@ -107,7 +107,7 @@ Development](http://tom.preston-werner.com/2010/08/23/readme-driven-development.
 stays up to date and allows you to think through the problem at a high level before you get lost in the weeds of
 coding.
 
-The documentation is built with Jekyll and hosted on the Github Pages from `docs` folder on `master` branch. Check out [Terratest website](https://github.com/gruntwork-io/terratest/tree/master/docs#working-with-the-documentation) to learn more about working with the documentation.
+The documentation is built with Jekyll and hosted on the Github Pages from `docs` folder on `master` branch. Check out [Terratest website](https://github.com/chrisbsmith/terratest/tree/master/docs#working-with-the-documentation) to learn more about working with the documentation.
 
 ### Update the tests
 
@@ -153,7 +153,7 @@ to include the following:
 ### Merge and release
 
 The maintainers for this repo will review your code and provide feedback. If everything looks good, they will merge the
-code and release a new version, which you'll be able to find in the [releases page](https://github.com/gruntwork-io/terratest/releases).
+code and release a new version, which you'll be able to find in the [releases page](https://github.com/chrisbsmith/terratest/releases).
 
 
 ## Developing Terratest
@@ -201,7 +201,7 @@ go test -timeout 30m -run "<TEST_NAME>"
 ### Versioning
 
 This repo follows the principles of [Semantic Versioning](http://semver.org/). You can find each new release,
-along with the changelog, in the [Releases Page](https://github.com/gruntwork-io/terratest/releases).
+along with the changelog, in the [Releases Page](https://github.com/chrisbsmith/terratest/releases).
 
 During initial development, the major version will be 0 (e.g., `0.x.y`), which indicates the code does not yet have a
 stable API. Once we hit `1.0.0`, we will make every effort to maintain a backwards compatible API and use the MAJOR,

@@ -11,8 +11,8 @@ import (
 	"sync"
 	"syscall"
 
-	"github.com/gruntwork-io/terratest/modules/logger"
-	"github.com/gruntwork-io/terratest/modules/testing"
+	"github.com/chrisbsmith/terratest/modules/logger"
+	"github.com/chrisbsmith/terratest/modules/testing"
 	"github.com/stretchr/testify/require"
 )
 

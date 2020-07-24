@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/gruntwork-io/terratest/modules/collections"
+	"github.com/chrisbsmith/terratest/modules/collections"
 )
 
 // TerraformDefaultLockingStatus - The terratest default command lock status (backwards compatibility)

@@ -10,7 +10,7 @@ import (
 	gotesting "testing"
 	"time"
 
-	"github.com/gruntwork-io/terratest/modules/testing"
+	"github.com/chrisbsmith/terratest/modules/testing"
 )
 
 var (

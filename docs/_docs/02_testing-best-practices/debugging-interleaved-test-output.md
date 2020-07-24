@@ -36,7 +36,7 @@ This will:
 - Create a `report.xml` file containing a Junit XML file of the test summary (so it can be integrated in your CI).
 
 The output can be integrated in your CI engine to further enhance the debugging experience. See Terratest's own
-[circleci configuration](https://github.com/gruntwork-io/terratest/blob/master/.circleci/config.yml) for an example of how to integrate the utility with CircleCI. This
+[circleci configuration](https://github.com/chrisbsmith/terratest/blob/master/.circleci/config.yml) for an example of how to integrate the utility with CircleCI. This
 provides for each build:
 
 - A test summary view showing you which tests failed:
@@ -51,7 +51,7 @@ provides for each build:
 
 Terratest also ships utility binaries that you can use to improve the debugging experience (see [Debugging interleaved
 test output](#debugging-interleaved-test-output)). The compiled binaries are shipped separately from the library in the
-[Releases page](https://github.com/gruntwork-io/terratest/releases).
+[Releases page](https://github.com/chrisbsmith/terratest/releases).
 
 To install a binary, download the version that matches your platform and place it somewhere on your `PATH`. For example
 to install version 0.13.13 of `terratest_log_parser`:
@@ -59,7 +59,7 @@ to install version 0.13.13 of `terratest_log_parser`:
 ```bash
 # This example assumes a linux 64bit machine
 # Use curl to download the binary
-curl --location --silent --fail --show-error -o terratest_log_parser https://github.com/gruntwork-io/terratest/releases/download/v0.13.13/terratest_log_parser_linux_amd64
+curl --location --silent --fail --show-error -o terratest_log_parser https://github.com/chrisbsmith/terratest/releases/download/v0.13.13/terratest_log_parser_linux_amd64
 # Make the downloaded binary executable
 chmod +x terratest_log_parser
 # Finally, we place the downloaded binary to a place in the PATH
@@ -70,7 +70,7 @@ Alternatively, you can use [the gruntwork-installer](https://github.com/gruntwor
 the above steps and automatically select the right binary for your platform:
 
 ```bash
-gruntwork-install --binary-name 'terratest_log_parser' --repo 'https://github.com/gruntwork-io/terratest' --tag 'v0.13.13'
+gruntwork-install --binary-name 'terratest_log_parser' --repo 'https://github.com/chrisbsmith/terratest' --tag 'v0.13.13'
 ```
 
 The following binaries are currently available with `terratest`:

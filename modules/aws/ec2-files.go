@@ -4,10 +4,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/gruntwork-io/terratest/modules/customerrors"
-	"github.com/gruntwork-io/terratest/modules/files"
-	"github.com/gruntwork-io/terratest/modules/ssh"
-	"github.com/gruntwork-io/terratest/modules/testing"
+	"github.com/chrisbsmith/terratest/modules/customerrors"
+	"github.com/chrisbsmith/terratest/modules/files"
+	"github.com/chrisbsmith/terratest/modules/ssh"
+	"github.com/chrisbsmith/terratest/modules/testing"
 )
 
 // RemoteFileSpecification describes which files you want to copy from your instances

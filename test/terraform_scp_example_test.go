@@ -9,12 +9,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gruntwork-io/terratest/modules/aws"
-	"github.com/gruntwork-io/terratest/modules/random"
-	"github.com/gruntwork-io/terratest/modules/retry"
-	"github.com/gruntwork-io/terratest/modules/ssh"
-	"github.com/gruntwork-io/terratest/modules/terraform"
-	test_structure "github.com/gruntwork-io/terratest/modules/test-structure"
+	"github.com/chrisbsmith/terratest/modules/aws"
+	"github.com/chrisbsmith/terratest/modules/random"
+	"github.com/chrisbsmith/terratest/modules/retry"
+	"github.com/chrisbsmith/terratest/modules/ssh"
+	"github.com/chrisbsmith/terratest/modules/terraform"
+	test_structure "github.com/chrisbsmith/terratest/modules/test-structure"
 	"github.com/stretchr/testify/assert"
 )
 
